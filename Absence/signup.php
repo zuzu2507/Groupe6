@@ -40,7 +40,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="">MATRICULE</label>
-                                <input type="text" name="cne" class="form-control" placeholder="MATRICULE">
+                                <input type="text" name="matricule" class="form-control" placeholder="MATRICULE">
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -80,7 +80,7 @@
                     </div>
                     <div class="form-group">
                         <label for="">Mot de passe : </label>
-                        <input type="password" class="form-control" name="password" placeholder="Mot de passe" >
+                        <input type="password" class="form-control" name="cin" placeholder="Mot de passe" >
                     </div>
                     <div class="form-group">
                         <button type="submit" name="signup" class="btn btn-success btn-lg" > S'inscrire </button>
