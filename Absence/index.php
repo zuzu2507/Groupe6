@@ -36,8 +36,8 @@
             <div class="carousel__face"><span>veuillez pensez à justifier vos absences</span></div>
             <div class="carousel__face"><span>Le retard freine votre apprentissage</span></div>
             <div class="carousel__face"><span>la pratique de la science passe par une bonne discipline</span></div>
-            <div class="carousel__face"><span>un bon ingenieur brille par son assiduité</span></div>
-            <div class="carousel__face"><span>Signaler vos potentiels absences</span></div>
+            <div class="carousel__face"><span>Attention signaler vos potentiels absences</span></div>
+            <div class="carousel__face"><span>un bon ingenieur fais attention a ces absence</span></div>
         </div>
     </div>
 

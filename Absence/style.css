@@ -38,31 +38,31 @@ body {
   
   
   .carousel__face:nth-child(1) {
-    background-image: url("image/robot\ 1.jpg");
+    background-image: url("image/robot\ 13.jpg");
     transform: rotateY(  0deg) translateZ(430px); }
   .carousel__face:nth-child(2) { 
-    background-image: url("image/robot\ 2");
+    background-image: url("image/robot\ 14.jpg");
       transform: rotateY( 40deg) translateZ(430px); }
   .carousel__face:nth-child(3) {
-    background-image: url("image/robot\ 6.jpeg");
+    background-image: url("image/robot\ 15.jpg");
     transform: rotateY( 80deg) translateZ(430px); }
   .carousel__face:nth-child(4) {
-    background-image: url("image/robot\ 3.jpg");
+    background-image: url("image/robot\ 16.jpg");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
-    background-image: url("image/robot\ 10.jpg");
+    background-image: url("image/robot\ 17.jpg");
    transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
-    background-image: url("image/robot\ 8.jpg");
+    background-image: url("image/robot\ 18.jpg");
    transform: rotateY(200deg) translateZ(430px); }
   .carousel__face:nth-child(7) { 
-    background-image: url("image/robot\ 5.jpg");
+    background-image: url("image/robot\ 19.jpg");
    transform: rotateY(240deg) translateZ(430px); }
   .carousel__face:nth-child(8) {
-    background-image: url("image/robot\ 4.jpeg");
+    background-image: url("image/robot\ 11.jpg");
     transform: rotateY(280deg) translateZ(430px); }
   .carousel__face:nth-child(9) {
-    background-image: url("image/robot\ 9.jpg");
+    background-image: url("image/robot\ 12.jpg");
     transform: rotateY(320deg) translateZ(430px); }
   
   
