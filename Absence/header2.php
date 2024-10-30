@@ -35,12 +35,12 @@ require "./files/functions.php";
             <?php if(isset($_SESSION["login"]) && $_SESSION["type"] == "admin" ): ?>
                 <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i> <b>ADMIN</b></a></li>
             <?php elseif(isset($_SESSION["type"]) && $_SESSION["type"] == "etudiant" ): ?>
-                <li><a href="etudiant.php?id=<?=$_SESSION['id_etudiant'] ?>"> <i class="fa fa-dashboard"></i> Mes absences</a></li>
+                <li><a href="etudiant.php?id=<?=$_SESSION['id_etudiant'] ?>"> <i class="fa fa-dashboard"></i>Liste de Mes absences</a></li>
             <?php elseif(isset($_SESSION["type"]) && $_SESSION["type"] == "professeur" ): ?>
-                <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i> <?=$_SESSION["nom"] ?></a></li>
+                <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i> <b><?=$_SESSION["nom"] ?></b></a></li>
             <?php endif; ?>
             <?php if(isset($_SESSION["id"])): ?>
-                <li><a href="disconnect2.php"><i class="fa fa-sign-out"></i> Se déconnecter</a></li>
+                <li><a href="disconnect2.php"><i class="fa fa-sign-out"></i> <b>deconnexion</b></a></li>
             <?php endif ?>
            
         </ul>
