@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    background: linear-gradient(to left, #4ac5d8, #693dc1);
+    background: linear-gradient(to left, #6ca039, #738c75);
     text-align: center;
     font-family: sans-serif;
-    color: #000;
+    color: #ed1616c8;
   }
   .container {
     position: relative;
@@ -27,7 +27,7 @@ body {
     left: 10px;
     right: 10px;
     background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(254, 254, 254, 0.5);
+    box-shadow:inset 0 0 0 2000px rgba(169, 174, 185, 0.5);
     display: flex;
   }
   
@@ -37,21 +37,6 @@ body {
   }
   
   
-  .carousel__face:nth-child(1) {
-    background-image: url("image/robot\ 1.jpg");
-    transform: rotateY(  0deg) translateZ(430px); }
-  .carousel__face:nth-child(2) { 
-    background-image: url("image/robot\ 2");
-      transform: rotateY( 40deg) translateZ(430px); }
-  .carousel__face:nth-child(3) {
-    background-image: url("image/robot\ 6.jpeg");
-    transform: rotateY( 80deg) translateZ(430px); }
-  .carousel__face:nth-child(4) {
-    background-image: url("image/robot\ 3.jpg");
-    transform: rotateY(120deg) translateZ(430px); }
-  .carousel__face:nth-child(5) { 
-    background-image: url("image/robot\ 10.jpg");
-   transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
     background-image: url("image/robot\ 8.jpg");
    transform: rotateY(200deg) translateZ(430px); }
@@ -79,11 +64,11 @@ body {
 
 
 header {
-    background: linear-gradient(to left, #f29f06, #160141); 
+    background: linear-gradient(to left, #06e2f2, #23202a); 
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(109, 104, 104, 0.1);
     z-index: 2;
     display: flex;
     align-items: center;
@@ -119,30 +104,30 @@ header {
     margin: 0 10px;
     text-decoration: none;
     color: #fff;
-    background-color: #849bec;
+    background-color: #a34343;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #151546;
+    background-color: #7a7aa7;
 }
 
 footer {
-    background-color: #333;
+    background-color: #122e90;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -2px 5px rgba(36, 29, 29, 0.1);
     z-index: 2;
 }
 /* Ajoutez ces styles dans votre fichier style.css */
 
 .welcome-text {
-  color: #000; /* Noir */
+  color: #a12626; /* Noir */
 }
 
 .question {
