@@ -68,7 +68,7 @@
                     <!-- Professeur -->
                     <div class="form-group professeur">
                         <label for="">MATRICULE</label>
-                        <input type="number"  " name="som" class="form-control" placeholder="MATRICULE" >
+                        <input type="number"  " name="matricule" class="form-control" placeholder="MATRICULE" >
                     </div>
                     <div class="form-group">
                         <label for="">Email</label>
