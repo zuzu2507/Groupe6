@@ -111,12 +111,11 @@ function inscriptionEtudiant($id_user, $cin, $nom, $matricule, $prenom, $date_na
 
     $db = database();
 
-    $sttm = $db->prepare("INSERT INTO etudiant (id_user, cin, nom, matricule, prenom, date_naissance, adresse, lieu_naissance, telephone, email) VALUE (:id_user, :cin, :nom, :matricule, :prenom, :date_naissance, :adresse, :lieu_naissance, :telephone, :email)");
+    $sttm = $db->prepare("INSERT INTO etudiant (id_user, cin, nom, prenom, date_naissance, adresse, lieu_naissance, telephone, email) VALUE (:id_user, :cin, :nom, :prenom, :date_naissance, :adresse, :lieu_naissance, :telephone, :email)");
 
     $sttm->bindParam(':id_user', $id_user);
     $sttm->bindParam(':cin', $cin);
     $sttm->bindParam(':nom', $nom);
-    $sttm->bindParam(':matricule', $matricule);
     $sttm->bindParam(':prenom', $prenom);
     $sttm->bindParam(':date_naissance', $date_naissance);
     $sttm->bindParam(':adresse', $adresse);
@@ -127,7 +126,8 @@ function inscriptionEtudiant($id_user, $cin, $nom, $matricule, $prenom, $date_na
     if ($sttm->execute()) {
         return true;
     }
-
+    $errors = $sttm->errorInfo();
+    $_SESSION["message"] = $errors[2];
     return false;
 
 }
@@ -176,7 +176,7 @@ function marquerAbsence($etudiant, $crn_horaire, $type_absence, $module, $profes
     if ($sttm->execute()) {
         return true;
     }
-
+    
     return false;
 
 
@@ -239,11 +239,11 @@ if (isset($_POST["connexion"])) {
 /* Inscription */
 if (isset($_POST['signup'])) {
 
-    if (!empty($_POST["username"]) && !empty($_POST["password"]) && !empty($_POST["type"]) && !empty($_POST["nom"]) && !empty($_POST["prenom"]) && !empty($_POST["email"]) && !empty($_POST["telephone"])) {
+    if (!empty($_POST["username"]) && !empty($_POST["cin"]) && !empty($_POST["type"]) && !empty($_POST["nom"]) && !empty($_POST["prenom"]) && !empty($_POST["email"]) && !empty($_POST["telephone"])) {
 
 
             $id_user = null;
-            $id_user = inscription($_POST["username"], $_POST["password"], $_POST["type"]);
+            $id_user = inscription($_POST["username"], $_POST["cin"], $_POST["type"]);
 
             if ($id_user != null) {
                 if ($_POST["type"] == "etudiant") {
@@ -254,6 +254,9 @@ if (isset($_POST['signup'])) {
                         $_SESSION["message"] = "Vous êtes maintenant inscrit ! merci de se connecter utilisant votre username et mot de passe";
                         header("Location: login.php");
                         exit();
+                    }
+                    else{
+                       // $_SESSION["message"] ="dsl ca n a pas marche";
                     }
 
                 } elseif ($_POST["type"] == "professeur") {
