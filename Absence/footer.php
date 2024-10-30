@@ -1,6 +1,6 @@
 <footer>
     <hr>
-    <p class="text-center">Gestion d'absence - Keyce Informatique et IA</p>
+    <p class="text-center">𝖌𝖊𝖘𝖙𝖎𝖔𝖓 𝖉𝖊𝖘 𝖆𝖇𝖘𝖈𝖊𝖇𝖈𝖊𝖘</p>
 </footer>
 <script src="./js/jquery-3.2.1.min.js" ></script>
 <script src="./js/bootstrap.min.js" ></script>
