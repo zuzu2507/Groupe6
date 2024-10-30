@@ -238,8 +238,8 @@ if (isset($_POST["connexion"])) {
 
 /* Inscription */
 if (isset($_POST['signup'])) {
-
-    if (!empty($_POST["username"]) && !empty($_POST["password"]) && !empty($_POST["type"]) && !empty($_POST["nom"]) && !empty($_POST["prenom"]) && !empty($_POST["email"]) && !empty($_POST["telephone"])) {
+    $_SESSION["message"] = "verification en court";
+    if (!empty($_POST["username"]) && !empty($_POST["cin"]) && !empty($_POST["type"]) && !empty($_POST["nom"]) && !empty($_POST["prenom"]) && !empty($_POST["email"]) && !empty($_POST["telephone"])) {
 
 
             $id_user = null;
@@ -272,9 +272,29 @@ if (isset($_POST['signup'])) {
             }
 
     } else {
-        $_SESSION["message"] = "Vous avez laisser des champs vides !";
+        if (empty($_POST["nom"])) {
+            $_SESSION["message"] += "Veuillez saisir votre nom.";
+        }
+        if (empty($_POST["prenom"])) {
+            $_SESSION["message"] += "Veuillez saisir votre prénom.";
+        }
+        if (empty($_POST["email"]))   
+         {
+             $_SESSION["message"] += "Veuillez saisir votre mail.";
+        }
+        if (empty($_POST["username"]))   
+        {
+            $_SESSION["message"] += "Veuillez saisir votre user name.";
+       }
+       if (empty($_POST["cin"]))   
+       {
+        $_SESSION["message"] += "Veuillez saisir votre cin.";
+      }
+      if (empty($_POST["telephone"]))   
+      {
+       $_SESSION["message"] += "Veuillez saisir votre Tel.";
+     }
     }
-
 
 }
 

@@ -14,8 +14,7 @@
 <div class="container">
 
     <div class="text-center">
-        <h1><i class="fa fa-graduation-cap"></i></h1>
-        <h2>Gestion d'absence</h2>
+        <h2>Gestion des Absences</h2>
         <h3>Keyce Informatique et IA</h3>
     </div>
 
@@ -28,7 +27,7 @@
         </div>
         <div class="row text-center">
             <div class="form-group">
-                <a href="absences_par_prof.php" class="btn btn-warning btn-lg"><i class="fa fa-check-circle-o"></i>Liste des absences que j'ai marqué</a>
+                <a href="absences_par_prof.php" class="btn btn-warning btn-lg"><i class="fa fa-check-circle-o"></i>Liste des absences marqué</a>
             </div>
         </div>
         <div class="row text-center">
@@ -55,7 +54,7 @@
             <div class="form-group">
                 <a href="absences_par_prof.php" class="btn btn-warning btn-lg"><i
                             class="fa fa-check-circle-o"></i>
-                    Liste des absences que j'ai marqué</a>
+                    Liste des absences marqué</a>
             </div>
         </div>
         <div class="row text-center">
