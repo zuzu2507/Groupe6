@@ -31,16 +31,16 @@ require "./files/functions.php";
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li><a href="Acceuil2.php">Accueil</a></li>
+            <li><a href="Acceuil2.php"><i>Accueil</i></a></li>
             <?php if(isset($_SESSION["login"]) && $_SESSION["type"] == "admin" ): ?>
-                <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i> <b>ADMIN</b></a></li>
+                <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i> <b><i>ADMIN</i></b></a></li>
             <?php elseif(isset($_SESSION["type"]) && $_SESSION["type"] == "etudiant" ): ?>
-                <li><a href="etudiant.php?id=<?=$_SESSION['id_etudiant'] ?>"> <i class="fa fa-dashboard"></i> Mes absences</a></li>
+                <li><a href="etudiant.php?id=<?=$_SESSION['id_etudiant'] ?>"> <i class="fa fa-dashboard"></i><i> Mes absences</i></a></li>
             <?php elseif(isset($_SESSION["type"]) && $_SESSION["type"] == "professeur" ): ?>
-                <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i> <?=$_SESSION["nom"] ?></a></li>
+                <li><a href="Acceuil2.php"> <i class="fa fa-dashboard"></i><i> <?=$_SESSION["nom"] ?></i></a></li>
             <?php endif; ?>
             <?php if(isset($_SESSION["id"])): ?>
-                <li><a href="disconnect2.php"><i class="fa fa-sign-out"></i> Se déconnecter</a></li>
+                <li><a href="disconnect2.php"><i class="fa fa-sign-out"></i><i>Se déconnecter</i></a></li>
             <?php endif ?>
            
         </ul>
