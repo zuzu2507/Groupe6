@@ -17,7 +17,6 @@ $absences = listAbsenceParEtudiant($_GET["id"]);
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <h4>Matricule : <?= $etudiant["matricule"]; ?></h4>
                         <h4>Email : <a target="_blank" href="mailto:<?=$etudiant["email"]; ?>"><?= $etudiant["email"]; ?></a></h4>
                         <h4>Téléphone : <?= $etudiant["telephone"]; ?></h4>
                         <h4>Lieu de naissance : <?= $etudiant["lieu_naissance"]; ?></h4>

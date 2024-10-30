@@ -6,12 +6,19 @@
 
 
 ?>
+<style>
+    .{
+        background-color: black;
+    }
+</style>
 <div class="container">
 
     <div class="text-center">
+
         <h1><i class="fa fa-graduation-cap"></i></h1>
         <h2>𝕲𝖊𝖘𝖙𝖎𝖔𝖓 𝖉'𝖆𝖇𝖘𝖊𝖓𝖈𝖊</h2>
         <h3>𝕶𝖊𝖞𝖈𝖊 𝕴𝖓𝖋𝖔𝖗𝖒𝖆𝖙𝖎𝖖𝖚𝖊 𝖊𝖙 𝕴𝕬</h3>
+
     </div>
 
     <!-- Professeur -->
@@ -23,7 +30,7 @@
         </div>
         <div class="row text-center">
             <div class="form-group">
-                <a href="absences_par_prof.php" class="btn btn-warning btn-lg"><i class="fa fa-check-circle-o"></i>Liste des absences que j'ai marqué</a>
+                <a href="absences_par_prof.php" class="btn btn-warning btn-lg"><i class="fa fa-check-circle-o"></i>Liste des absences marqué</a>
             </div>
         </div>
         <div class="row text-center">
@@ -50,7 +57,7 @@
             <div class="form-group">
                 <a href="absences_par_prof.php" class="btn btn-warning btn-lg"><i
                             class="fa fa-check-circle-o"></i>
-                    Liste des absences que j'ai marqué</a>
+                    Liste des absences marqué</a>
             </div>
         </div>
         <div class="row text-center">

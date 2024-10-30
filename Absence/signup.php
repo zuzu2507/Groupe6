@@ -27,21 +27,7 @@
             </select>
         </div>
 
-        <!-- Champs pour Étudiant -->
-        <div class="student-fields">
-            <div class="form-group">
-                <label>Matricule</label>
-                <input type="text" name="cne" class="form-control" placeholder="MATRICULE">
-            </div>
-            <div class="form-group">
-                <label>Date de Naissance</label>
-                <input type="date" name="date_naissance" class="form-control">
-            </div>
-            <div class="form-group">
-                <label>Lieu de Naissance</label>
-                <input type="text" name="lieu_naissance" class="form-control" placeholder="Lieu de Naissance">
-            </div>
-        </div>
+
 
         <!-- Champs pour Professeur -->
         <div class="professor-fields">
