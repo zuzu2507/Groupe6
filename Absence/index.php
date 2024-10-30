@@ -11,7 +11,7 @@
 
     <header>
             <div id="logo-container">
-                <img id="logo" src="image/logo.jpg" alt="Logo de l'école">
+                <img id="logo" src="image/robot.jpg" alt="Logo de l'école">
             </div>
             <div id="header-text">
             𝑲𝑬𝒀𝑪𝑬 𝑰𝑵𝑭𝑶𝑹𝑴𝑨𝑻𝑰𝑸𝑼𝑬 𝑬𝑻 𝑰𝑵𝑻𝑬𝑳𝑳𝑰𝑮𝑬𝑵𝑪𝑬 𝑨𝑹𝑻𝑰𝑭𝑰𝑪𝑰𝑬𝑳𝑳𝑬
@@ -29,15 +29,14 @@
 
     <div class="container">
         <div class="carousel">
-            <div class="carousel__face"><span>Le retard n'est pas bon</span></div>
+            <div class="carousel__face"><span>retard n'est pas bon</span></div>
             <div class="carousel__face"><span>Ne soit plus en retard</span></div>
             <div class="carousel__face"><span>On ne repond pas à la place de l'autre</span></div>
             <div class="carousel__face"><span>Marquer toujours les absences</span></div>
             <div class="carousel__face"><span>veuillez pensez à justifier vos absences</span></div>
             <div class="carousel__face"><span>Le retard freine votre apprentissage</span></div>
             <div class="carousel__face"><span>la pratique de la science passe par une bonne discipline</span></div>
-            <div class="carousel__face"><span>Attention signaler vos potentiels absences</span></div>
-            <div class="carousel__face"><span>un bon ingenieur fais attention a ces absence</span></div>
+
         </div>
     </div>
 
