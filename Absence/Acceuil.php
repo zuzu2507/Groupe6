@@ -15,8 +15,8 @@
 
     <div class="text-center">
         <h1><i class="fa fa-graduation-cap"></i></h1>
-        <h2>Gestion d'absence</h2>
-        <h3>Keyce Informatique et IA</h3>
+        <h2>𝕲𝖊𝖘𝖙𝖎𝖔𝖓 𝖉'𝖆𝖇𝖘𝖊𝖓𝖈𝖊</h2>
+        <h3>𝕶𝖊𝖞𝖈𝖊 𝕴𝖓𝖋𝖔𝖗𝖒𝖆𝖙𝖎𝖖𝖚𝖊 𝖊𝖙 𝕴𝕬</h3>
     </div>
 
     <!-- Professeur -->
