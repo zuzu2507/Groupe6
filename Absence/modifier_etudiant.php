@@ -8,7 +8,7 @@
         <div class="row">
 
             <div class="col-lg-8 col-lg-offset-2">
-                <p class="text-center"><h3><i class="fa fa-user-circle-o"></i> Inscription</h3></p>
+                <p class="text-center"><h3><i class="fa fa-user-circle-o"></i>𝕴𝖓𝖘𝖈𝖗𝖎𝖕𝖙𝖎𝖔𝖓 </h3></p>
                 <form action="modifier_etudiant.php" method="POST" autocomplete="off" >
                     <div class="row">
                         <div class="col-md-4">
